@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Figma Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="d-flex align-items-center">
+      <div class="header-logo me-5">Foxstocks</div>
+      <div class="text-white ml-5">Hello Milad Anoushe</div>
+    </div>
+
+    <div class="d-flex align-items-center">
+      <input type="text" class="form-control search-input me-3" style="width: 250px;"
+        placeholder="Search for stocks and more">
+      <button class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell"
+          viewBox="0 0 16 16">
+          <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z" />
+          <path fill-rule="evenodd"
+            d="M8 1a5 5 0 0 0-5 5v2.086a1 1 0 0 1-.293.707L1.5 11h13l-1.207-1.207a1 1 0 0 1-.293-.707V6a5 5 0 0 0-5-5z" />
+        </svg>
+      </button>
+      <img src="./img/Untitled.png" alt="Profile" class="profile-img">
+    </div>
+  </div>
+
+  <div class="sidebar d-flex flex-column justify-content-between">
+    <div>
+      <div class="mb-4 fw-bold text-white">User Panel</div>
+      <nav class="nav flex-column">
+        <a href="#" class="nav-link active"><i class="bi bi-grid"></i><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 6V0H18V6H10ZM0 10V0H8V10H0ZM10 18V8H18V18H10ZM0 18V12H8V18H0Z" fill="white"/>
+          </svg>
+          Dashboard</a>
+        <a href="#" class="nav-link"><i class="bi bi-briefcase"></i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.75 12.75V21H2.25V12.75M1.5 6H22.5V12C22.5 12 18 15 12 15C6 15 1.5 12 1.5 12V6ZM12 16.5V13.5V16.5ZM15 6C15 6 15 3 12 3C9 3 9 6 9 6" fill="#84828A"/>
+          <path d="M21.75 12.75V21H2.25V12.75M12 16.5V13.5M15 6C15 6 15 3 12 3C9 3 9 6 9 6M1.5 6H22.5V12C22.5 12 18 15 12 15C6 15 1.5 12 1.5 12V6Z" stroke="#0D0D0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Portfolio</a>
+        <a href="#" class="nav-link"><i class="bi bi-bar-chart"></i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.75 12.75V21H2.25V12.75M1.5 6H22.5V12C22.5 12 18 15 12 15C6 15 1.5 12 1.5 12V6ZM12 16.5V13.5V16.5ZM15 6C15 6 15 3 12 3C9 3 9 6 9 6" fill="#84828A"/>
+          <path d="M21.75 12.75V21H2.25V12.75M12 16.5V13.5M15 6C15 6 15 3 12 3C9 3 9 6 9 6M1.5 6H22.5V12C22.5 12 18 15 12 15C6 15 1.5 12 1.5 12V6Z" stroke="#0D0D0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Trading & Market</a>
+        <a href="#" class="nav-link"><i class="bi bi-journal-text"></i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 19V5H21V19H3ZM4.8 8.5H19.2V6.75H4.8V8.5ZM15.3975 13.8156L19.2 10.7094V10.25H4.8V11.3219L15.3975 13.8156Z" fill="#84828A"/>
+          </svg>
+          Research Portal</a>
+        <a href="#" class="nav-link"><i class="bi bi-wallet2"></i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 19V5H21V19H3ZM4.8 8.5H19.2V6.75H4.8V8.5ZM15.3975 13.8156L19.2 10.7094V10.25H4.8V11.3219L15.3975 13.8156Z" fill="#84828A"/>
+          </svg>
+          Wallet Transfer Pay</a>
+        <a href="#" class="nav-link"><i class="bi bi-arrow-left-right"></i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 14V11H20V9L24 12.5L20 16V14H17ZM16 7.7V9H4V7.7L10 4L16 7.7ZM9 10H11V15H9V10ZM5 10H7V15H5V10ZM15 10V12.5L13 14.3V10H15ZM11.1 16L10.5 16.5L12.2 18H4V16H11.1ZM19 15V18H16V20L12 16.5L16 13V15H19Z" fill="#84828A"/>
+          </svg>
+          
+          Reporting & Transaction</a>
+        <a href="#" class="nav-link"><i class="bi bi-play-circle"></i><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.15556 1.12244H10.3V0H9.15556C8.82946 0.00106823 8.5074 0.0708769 8.21122 0.204695C7.91503 0.338514 7.65164 0.533215 7.43889 0.775603C7.22614 0.533215 6.96274 0.338514 6.66656 0.204695C6.37038 0.0708769 6.04832 0.00106823 5.72222 0H5.15C3.7846 0.00148546 2.47556 0.534116 1.51007 1.48103C0.544589 2.42795 0.00151459 3.71182 0 5.05096V8.41827C0.00151459 9.75741 0.544589 11.0413 1.51007 11.9882C2.47556 12.9351 3.7846 13.4677 5.15 13.4692H5.72222C6.04832 13.4682 6.37038 13.3984 6.66656 13.2645C6.96274 13.1307 7.22614 12.936 7.43889 12.6936C7.65164 12.936 7.91503 13.1307 8.21122 13.2645C8.5074 13.3984 8.82946 13.4682 9.15556 13.4692H10.3V12.3468H9.15556C8.85212 12.3465 8.5612 12.2281 8.34664 12.0177C8.13209 11.8073 8.01141 11.522 8.01111 11.2244V2.24487C8.01141 1.94727 8.13209 1.66195 8.34664 1.45152C8.5612 1.24109 8.85212 1.12273 9.15556 1.12244Z" fill="#84828A"/>
+          <path d="M1.27951 5.04217H2.52498C3.35341 5.04217 4.02498 4.3706 4.02498 3.54217V2.68213" stroke="#808080"/>
+          <path d="M6.77045 8.39191L5.97693 8.39191C5.1485 8.39191 4.47693 9.06348 4.47693 9.89191L4.47693 10.752" stroke="#808080"/>
+          <path d="M6.77045 6.03174L5.35727 6.03174" stroke="#808080"/>
+          <path d="M2.69287 8.00781L1.27969 8.00781" stroke="#808080"/>
+          </svg>
+          
+          Tutorial</a>
+      </nav>
+    </div>
+    <div>
+      <div class="thoughts-box">
+        <div class="icon">
+          <i class="bi bi-lightbulb"><img src="./img/Icon Image.png" alt="
+          "></i>
+        </div>
+        <div class="fw-semibold">Thoughts Time</div>
+        <small>
+          If you aren't willing to own a stock for 10 years, don't even think about owning it for 10 minutes.
+        </small>
+      </div>
+      <div class="logout mt-3"><i class="bi bi-box-arrow-right"></i> Logout</div>
+    </div>
+  </div>
+
+  <main>
+
+    <div class=" my-stock-container container-fluid mt-4 px-4">
+      <div class="text-white mb-3">My Stocks</div>
+      <div class="my-stock d-flex flex-nowrap overflow-auto gap-3">
+
+        <div class="stock-card p-3 rounded" style="background-color: #02735E; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Nvidia</div>
+              <small class="text-white-50">NVDA</small>
+            </div>
+            <div class="text-success fw-bold">+5.63</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$203.65</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #3D1D92; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Meta</div>
+              <small class="text-white-50">META</small>
+            </div>
+            <div class="text-danger fw-bold">-4.44</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$151.74</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #9C6800; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Tesla Inc</div>
+              <small class="text-white-50">TSLA</small>
+            </div>
+            <div class="text-success fw-bold">+17.63</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$177.90</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #1F7D1F; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Apple Inc</div>
+              <small class="text-white-50">AAPL</small>
+            </div>
+            <div class="text-success fw-bold">+23.41</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$145.93</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #6A1B9A; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Advanced Micro</div>
+              <small class="text-white-50">AMD</small>
+            </div>
+            <div class="text-success fw-bold">+1.23</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$75.40</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2 d-flex justify-content-end">
+            <div class="btn btn-primary rounded-circle p-1">
+              ▶
+            </div>
+          </div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #02735E; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Nvidia</div>
+              <small class="text-white-50">NVDA</small>
+            </div>
+            <div class="text-success fw-bold">+5.63</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$203.65</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #02735E; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Nvidia</div>
+              <small class="text-white-50">NVDA</small>
+            </div>
+            <div class="text-success fw-bold">+5.63</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$203.65</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+        <div class="stock-card p-3 rounded" style="background-color: #02735E; min-width: 180px; color: white;">
+          <div class="d-flex justify-content-between">
+            <div>
+              <div class="fw-bold">Nvidia</div>
+              <small class="text-white-50">NVDA</small>
+            </div>
+            <div class="text-success fw-bold">+5.63</div>
+          </div>
+          <div class="mt-3">Current Value</div>
+          <div class="h5">$203.65</div>
+          <img src="./img/image1.png" alt="">
+          <div class="stock-chart mt-2"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid px-4 py-4">
+      <div class="row g-4">
+
+
+        <div class="col-md-4">
+          <div class="card-custom">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <div class="text-white-50 mb-1">Balance</div>
+                <div class="balance-value">$14,032.56</div>
+              </div>
+              <div class="positive-change">+5.63%</div>
+            </div>
+
+            <div class="mt-4">
+              <div class="text-white-50 mb-1">Invested</div>
+              <div class="d-flex justify-content-between align-items-center bg-dark rounded px-3 py-2">
+                <span>$7,532.21</span>
+                <button class="btn btn-primary rounded-circle p-1">
+                  ▶
+                </button>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <div class="text-white-50 mb-2">Top Stock</div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="text-danger fw-bold">Tesla Inc</div>
+                  <small class="text-white-50">Invested Value: $29.34</small><br>
+                  <small class="text-white-50">Current Value: $177.90</small>
+                </div>
+                <div class="text-success">+17.63</div>
+              </div>
+
+              <div class="text-center mt-3">
+                <button class="btn btn-primary rounded-circle">
+                  ▼
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card-custom">
+            <div class="d-flex gap-2 mb-3">
+              <button class="pill-tab">NASDAQ</button>
+              <button class="pill-tab bg-secondary">SSE</button>
+              <button class="pill-tab bg-secondary">Euronext</button>
+              <button class="pill-tab bg-secondary">BSE</button>
+            </div>
+            <div class="d-flex gap-3 mb-3">
+              <span class="text-primary">1D</span>
+              <span class="text-white-50">5D</span>
+              <span class="text-white-50">1M</span>
+              <span class="text-white-50">6M</span>
+              <span class="text-white-50">1Y</span>
+            </div>
+            <div class="chart-box">
+              <img src="./img/{C7D0571A-8B40-4894-9363-F799CE5BA32B}.png" alt="">
+            </div>
+            <div class="d-flex justify-content-between small text-white-50">
+              <div>
+                <div>High: 11,691.89</div>
+                <div>Low: 11,470.47</div>
+              </div>
+              <div>
+                <div>Prev Close: 11,512.41</div>
+                <div>Open: 11,690.11</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card-custom">
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span class="range-label">Prev Close</span>
+                <span>12,051.48</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="range-label">Open</span>
+                <span>12,000.21</span>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Day Low</span><span>Day High</span>
+              </div>
+              <div class="range-line my-2">
+                <div class="range-marker" style="left: 50%;"></div>
+              </div>
+              <div class="text-center">12,166.60</div>
+              <div class="d-flex justify-content-between range-label mt-1">
+                <span>11,999.87</span><span>12,248.15</span>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>52 Week Low</span><span>52 Week High</span>
+              </div>
+              <div class="range-line my-2">
+                <div class="range-marker" style="left: 30%;"></div>
+              </div>
+              <div class="text-center">12,166.60</div>
+              <div class="d-flex justify-content-between range-label mt-1">
+                <span>10,440.64</span><span>15,265.42</span>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3 small text-white-50">
+              <div>
+                <div>Trade Time</div>
+                <strong class="text-white">05:16 PM</strong>
+              </div>
+              <div>
+                <div>Trade Date</div>
+                <strong class="text-white">01/27/23</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="card card-dark p-4 mb-4">
+            <h5 class="text-white">Portfolio Analytics</h5>
+            <div class="d-flex gap-3 mb-3">
+              <button class="btn btn-sm btn-outline-light">1D</button>
+              <button class="btn btn-sm btn-outline-light">5D</button>
+              <button class="btn btn-sm btn-outline-light">1M</button>
+              <button class="btn btn-sm btn-outline-light">6M</button>
+              <button class="btn btn-sm btn-outline-light">1Y</button>
+              <button class="btn btn-sm btn-outline-light">5Y</button>
+              <button class="btn btn-sm btn-outline-light">Max</button>
+            </div>
+            <div class="position-relative">
+              <div class="graph-placeholder mb-3 d-flex justify-content-center">
+                <img src="./img/{1D49E3CE-6457-46C5-9708-EA1D96D6BAE3}.png" alt="">
+              </div>
+              <div class="tooltip-custom">Jan 30, 01:12:16 AM<br>$14,032.56</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card card-dark p-3 mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h6 class="mb-0">Watchlist</h6>
+              <button class="btn btn-sm btn-primary">+</button>
+            </div>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <div>Amazon.com, Inc.<br><small class="text-secondary">AMZN</small></div>
+                  <div class="text-end">
+                    <div>$102.24</div>
+                    <small class="text-green">+3.02</small>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <div>Coca-Cola Co<br><small class="text-secondary">KO</small></div>
+                  <div class="text-end">
+                    <div>$60.49</div>
+                    <small class="text-red">-0.32</small>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <div>Bayerische Motoren Werke AG<br><small class="text-secondary">BMW</small></div>
+                  <div class="text-end">
+                    <div>$92.94</div>
+                    <small class="text-green">+0.59</small>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <div>Microsoft Corp<br><small class="text-secondary">MSFT</small></div>
+                  <div class="text-end">
+                    <div>$248.16</div>
+                    <small class="text-green">+0.16</small>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <div>United Parcel Service, Inc.<br><small class="text-secondary">UPS</small></div>
+
+                  <div class="text-end">
+                    <div>$182.09</div>
+                    <small class="text-green">+2.39</small>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex justify-content-between">
+                  <div>Mastercard Inc<br><small class="text-secondary">MA</small></div>
+                  <div class="text-end">
+                    <div>$374.03</div>
+                    <small class="text-red">-3.21</small>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+</body>
+
+</html>
